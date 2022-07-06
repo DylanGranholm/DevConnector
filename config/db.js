@@ -4,7 +4,9 @@ const db = config.get('mongoURI')
 
 const connectDB = async () => {
     try {
-        await mongoose.connect(db);
+        await mongoose.connect(db, 
+            //{useNewUrlParser: true,useCreateIndex: true}//These options are always true by default in mongoose 6
+        );
 
         console.log("MongoDB Connected...");
     } catch (err) {
