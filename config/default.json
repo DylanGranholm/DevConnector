@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb+srv://DylanG:DylanGLogin@devconnector.o1tyq1f.mongodb.net/?retryWrites=true&w=majority",
-    "jwtSecret": "mysecrettoken"
+    "jwtSecret": "mysecrettoken",
+    "githubClientId": "c46d1b7630f31f7f9b08",
+    "githubSecret": "bdf9811b75ce97cfce1f2cd88745ae3aceb3bbd8"
 }
